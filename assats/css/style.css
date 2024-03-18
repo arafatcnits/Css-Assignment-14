@@ -1,0 +1,424 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat";
+}
+
+.body {
+    background: rgb(230, 233, 236);
+}
+
+.container {
+    max-width: 1420px;
+    margin: auto;
+}
+
+.hero {
+    background: #a3aeaa;
+}
+
+.hero_item {
+    text-align: center;
+}
+
+.hero_item button {
+    width: 100%;
+    padding: 10px;
+    border-radius: 50px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin: 10px 0px 10px 0px;
+}
+
+.active_selector {
+    font-size: 20px;
+}
+
+.active_selector p {
+    line-height: 1.6;
+}
+
+.active_selectors {
+    margin: 10px 0px 0px 0px;
+}
+
+.checked_Selector {
+    font-size: 20px;
+}
+
+.checked_selectors {
+    margin: 10px 0px 10px 0px;
+}
+
+.disabled_selector {
+    font-size: 20px;
+}
+
+.disabled_selector p {
+    padding: 10px 0px 0px 0px;
+    color: black;
+}
+
+.disabled_selector span input {
+    background: #d6dbb4;
+}
+
+.empty_selector {
+    font-size: 20px;
+}
+
+.empty_selector h1 {
+    padding: 10px 0px 10px 0px;
+
+}
+
+.empty_selector p {
+    padding-top: 5px;
+
+}
+
+p:empty {
+    background: red;
+    width: 150px;
+    height: 20px;
+}
+
+.first_child_selector {
+    font-size: 20px;
+}
+
+.first_child_selector h1 {
+    padding: 10px 0px 0px 0px;
+}
+
+.first_child_selector p {
+    line-height: 1.6;
+}
+
+.paragraph p {
+    line-height: 1.6;
+}
+
+p:first-child {
+    background-color: yellow;
+}
+
+.first_of_type_selector {
+    font-size: 20px;
+}
+
+.first_of_type_selector h1 {
+    padding: 10px 0px 10px 0px;
+}
+
+.first_of_type_selector p {
+    line-height: 1.6;
+}
+
+.first_of_type_selector p:first-of-type {
+    background: #d48a89;
+}
+
+.focus_selector {
+    font-size: 20px;
+}
+
+.focus_selector p {
+    padding: 10px 0px 0px 0px;
+}
+
+.focus_selector input:focus {
+    background: pink;
+}
+
+.hover_selector {
+    font-size: 20px;
+}
+
+.hover_selector h1 {
+    padding: 10px 0px 10px 0px;
+}
+
+.hover_selector a:hover {
+    background: yellow;
+    font-size: 20px;
+}
+
+.in_range_selector {
+    font-size: 20px;
+}
+
+.in_range_selector input {
+    width: 80px;
+    height: 30px;
+    font-size: 20px;
+    border: 2px solid pink;
+}
+
+.lang_selector {
+    font-size: 20px;
+}
+
+.lang_selector h1 {
+    padding: 10px 0px 10px 0px;
+}
+
+.lang_selector p {
+    line-height: 1.6;
+}
+
+p:lang(class) {
+    background: blue;
+}
+
+.link_selector {
+    font-size: 20px;
+}
+
+.link_selector h1 {
+    padding: 10px 0px 10px 0px;
+}
+
+.link_selector a {
+    font-size: 20px;
+}
+
+.link_selector a:link {
+    background: pink;
+}
+
+.optional_selector {
+    font-size: 20px;
+}
+
+.optional_selector h1 {
+    padding: 10px 0px 10px 0px;
+}
+
+.optional_selector p {
+    font-size: 20px;
+}
+
+.optional_selector input:optional {
+    background-color: yellow;
+}
+
+.out_of_range_selector {
+    font-size: 20px;
+}
+
+.out_of_range_selector h1 {
+    padding: 10px 0px 10px 0px;
+}
+
+.out_of_range_selector input {
+    width: 80px;
+    height: 30px;
+    font-size: 20px;
+    border: 2px solid red;
+}
+
+.read_only_selector {
+    font-size: 20px;
+}
+
+.read_only_selector h1 {
+    padding: 10px 0px 10px 0px;
+}
+
+.read_only_selector p input {
+    font-size: 20px;
+}
+
+.read_only_selector input:read-only {
+    background: #b787d1;
+}
+
+.target_selector {
+    font-size: 20px;
+}
+
+.target_selector h1 {
+    padding: 10px 0px 10px 0px;
+}
+
+.hallo {
+    font-size: 20px;
+}
+
+.valid_selector {
+    font-size: 20px;
+}
+
+.valid_selector h1 {
+    padding: 10px 0px 10px 0px;
+}
+
+.valid_selector input:valid {
+    background: yellow;
+    font-size: 20px;
+}
+
+.visited_selector {
+    font-size: 20px;
+}
+
+.visited_selector h1 {
+    padding: 10px 0px 10px 0px;
+}
+
+.visited_selector a {
+    font-size: 20px;
+    background: #d4b491;
+    color: black;
+}
+
+.visited_selector p {
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+.herobar {
+    background: #a3aeaa;
+}
+
+.herobar_item {
+    text-align: center;
+}
+
+.herobar_item button {
+    width: 100%;
+    padding: 10px;
+    border-radius: 50px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin: 10px 0px 10px 0px;
+}
+
+.herobar {
+    margin: 70px 0px 0px 0px;
+}
+
+.first_letter_selector {
+    font-size: 20px;
+}
+
+.first_letter_selectors h1 {
+    padding: 10px 0px 10px 0px;
+}
+
+.first_line_selector p {
+    line-height: 1.6;
+}
+
+.first_letter_selector p::first-letter {
+    font-size: 200%;
+    color: #8A2BE2;
+}
+
+.first_line_selector {
+    font-size: 20px;
+}
+
+.first_line_selector h1 {
+    padding: 10px 0px 10px 0px;
+}
+
+.first_line_selector p::first-line {
+    background: orange;
+}
+
+.marker_selector {
+    font-size: 20px;
+}
+
+.marker_selector h1 {
+    padding: 10px 0px 10px 0px;
+}
+
+.marker_selector ul ::marker {
+    color: blue;
+}
+
+.marker_selector ul {
+    margin-left: 20px;
+    line-height: 1.6;
+}
+
+.marker_selector ol {
+    margin-left: 20px;
+    line-height: 1.6;
+}
+
+.selection_selector {
+    font-size: 20px;
+}
+
+.selection_selector h1 {
+    padding: 10px 0px 10px 0px;
+}
+
+.selection_selector p {
+    line-height: 1.6;
+}
+
+.selection_selector p::selection {
+    color: red;
+    background: yellow;
+}
+
+.before_selector {
+    font-size: 20px;
+}
+.before_selector {
+    padding: 10px 0px 10px 0px;
+}
+.body{
+    margin: 0;
+    padding: 0;
+    width: 500px;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3a2525;
+  }
+  .heart{
+    height: 100px;
+    width: 100px;
+    background: #f20044;
+    position: relative;
+    transform: rotate(45deg);
+    box-shadow: 10px 10px 90px #f20044; 
+  }
+  .heart::before{
+    content: "";
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    background: #f20044;
+    top: -50%;
+    box-shadow: -10px -10px 90px #f20044;
+    border-radius: 50px;
+  }
+  .heart::after{
+    content: "";
+    height: 100px;
+    width: 100px;
+    right: 50%;
+    background: #f20044;
+    position: absolute; 
+    box-shadow: -10px 10px 90px #f20044;
+    border-radius: 50px;
+  }
